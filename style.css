@@ -19,7 +19,6 @@
 
 body{
   background: url("homepagepic.png") no-repeat center center fixed;
-
   font-family: 'Schoolbell' sans-serif;
 }
 
@@ -157,4 +156,12 @@ body{
     position:absolute;
     right: 70px;
     top:10px;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Elius' sans-serif;
 }
