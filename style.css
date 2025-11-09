@@ -164,4 +164,12 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Elius' sans-serif;
+    margin-right: 80px;
+        margin-left: 80px;
+           
+}
+
+#center2{
+    width: 30vw;
+
 }
