@@ -2,7 +2,11 @@
     --theme: rgb(255, 255, 255);
     --accent: #0a0f72;
     --midtone: #000686;
-    --background: white;
+}
+
+
+body{
+  background: url("homepagepic.png") no-repeat center center fixed; 
 }
 
 #indextitle{
