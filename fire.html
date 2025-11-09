@@ -22,7 +22,14 @@
 
 
     <body>
-        <audio autoplay loop style="display:none;"
+        <span id="info" class="material-symbols-outlined" onclick="openinfo()">
+                info
+        </span>
+        <span id="volume" class="material-symbols-outlined" onclick="changevolumesetting()">
+                <img id=volpic src="real_volume_up.png">
+        </span>
+
+        <audio id="sfx" autoplay loop style="display:none;"
             <source src="firesound.wav" type="audio/wav">
         </audio>
         <div class="stuffweather">
@@ -60,5 +67,8 @@
                 </p>
             </div>  
         </div>
+            <script src="index.js"></script>
     </body>
+
+
 </html>
