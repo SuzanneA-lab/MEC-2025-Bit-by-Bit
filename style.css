@@ -89,7 +89,7 @@ body{
 }
 
 .dispic{
-    height: 60vh;
+    height: 75vh;
     width: 450px;
     background-color: rgb(250, 184, 184);
     border-color: rgb(152, 2, 2);
@@ -104,4 +104,11 @@ body{
 
 .weathertext{
     width: 60vh;
+}
+
+
+#floodimage{
+    background-image: url("Flood.jpg");
+    background-size: cover;
+    background-position: center;
 }
