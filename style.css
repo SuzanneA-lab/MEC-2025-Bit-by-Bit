@@ -112,3 +112,9 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+#fireimage{
+    background-image: url("Fire.jpg");
+    background-size: cover;
+    background-position: center;
+}
