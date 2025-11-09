@@ -118,3 +118,15 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+#tornadoimage{
+    background-image: url("Tornado.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#eimage{
+    background-image: url("earthquake.jpg");
+    background-size: cover;
+    background-position: center;
+}
