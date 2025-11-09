@@ -6,7 +6,7 @@
 
 
 body{
-  background: url("newhomepagepic.png") no-repeat center center fixed;
+  background: url("homepagepic.png") no-repeat center center fixed;
 }
 
 #indextitle{
@@ -36,8 +36,24 @@ body{
     
     border-width: 3px;
     border-style: solid;
-    border-color: rgb(152, 2, 2);
+    border-color: rgb(0, 0, 0);
     transition: all 0.2s ease-in-out;
+}
+
+#hbutton{
+    background-image: url("tbuttonpic.png");
+}
+
+#fbutton{
+    background-image: url("fibuttonpic.png");
+}
+
+#ebutton{
+    background-image: url("eqbuttonpic.png");
+}
+
+#flbutton{
+    background-image: url("fbuttonpic.png");
 }
 
 .topbutton:hover{
