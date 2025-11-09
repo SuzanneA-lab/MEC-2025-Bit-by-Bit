@@ -1,4 +1,5 @@
 const info = document.getElementById("info");
+const myAudio = document.getElementById("sfx");
 let soundplaying = true;
 
 function openinfo(){
@@ -7,10 +8,12 @@ function openinfo(){
 
 function changevolumesetting(){
     if (soundplaying){
-        soundon.pause()
+        myAudio.pause()
+        soundplaying = false;
     }
 
     else{
-        soud
+        myAudio.play();
+        soundplaying = true;
     }
 }
