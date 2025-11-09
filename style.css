@@ -18,7 +18,7 @@
 }
 
 body{
-  background: url("newhomepagepic.png") no-repeat center center fixed;
+  background: url("homepagepic.png") no-repeat center center fixed;
 
   font-family: 'Schoolbell' sans-serif;
 }
@@ -28,6 +28,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+      font-family: "Delius", sans-serif;
 }
 
 .stuff{
@@ -70,9 +71,10 @@ body{
     background-image: url("fbuttonpic.png");
 }
 
-.topbutton:hover{
-    border-color: black !important;
+.wbutton:hover{
+    border-color: black!important;
     transition: all 0.2s ease-in-out !important;
+    scale:0.95;
 }
 
 /* weather pages*/
